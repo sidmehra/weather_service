@@ -11,7 +11,6 @@ A lightweight FastAPI backend for ingesting weather sensor data and querying sta
 - ✅ Support for statistics like min, max, average, sum
 - ✅ Date-based filtering (last N days, default = latest)
 - ✅ Custom error handling and validation
-- ✅ Delete sensor data by ID or completely
 - ✅ Unit and integration test coverage (84%+)
 - ✅ Fully interactive Swagger UI at `/docs`
 
@@ -35,3 +34,29 @@ A lightweight FastAPI backend for ingesting weather sensor data and querying sta
 ```bash
 git clone https://github.com/your-username/weather-sensor-api.git
 cd weather-sensor-api
+```
+
+### 🐍 Create a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 📦 Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 🏃‍♂️ Run the API
+```bash
+uvicorn app.main:app --reload
+```
+
+### 🧪 Run tests + coverage
+```bash
+pytest --cov=app
+pytest --cov-report=term-missing
+```
+
