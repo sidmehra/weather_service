@@ -32,7 +32,7 @@ A lightweight FastAPI backend for ingesting weather sensor data and querying sta
 ### 📁 Clone the repo
 
 ```bash
-git clone https://github.com/your-username/weather-sensor-api.git
+git clone git clone https://github.com/sidmehra/weather_service.git
 cd weather-sensor-api
 ```
 
@@ -59,4 +59,3 @@ uvicorn app.main:app --reload
 pytest --cov=app
 pytest --cov-report=term-missing
 ```
-
