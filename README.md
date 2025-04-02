@@ -29,32 +29,32 @@ A lightweight FastAPI backend for ingesting weather sensor data and querying sta
 
 ## 🚀 Setup Instructions
 
-### 📁 Clone the repo
+### Clone the repo
 
 ```bash
 git clone git clone https://github.com/sidmehra/weather_service.git
 cd weather-sensor-api
 ```
 
-### 🐍 Create a virtual environment
+### Create a virtual environment
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-### 📦 Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 🏃‍♂️ Run the API
+### Run the API
 ```bash
 uvicorn app.main:app --reload
 ```
 
-### 🧪 Run tests + coverage
+### Run tests + coverage
 ```bash
 pytest --cov=app
 pytest --cov-report=term-missing
