@@ -6,13 +6,13 @@ A lightweight FastAPI backend for ingesting weather sensor data and querying sta
 
 ## 📦 Features
 
-- ✅ Add new sensor data via `POST /data`
-- ✅ Query sensor metrics via `GET /query`
-- ✅ Support for statistics like min, max, average, sum
-- ✅ Date-based filtering (last N days, default = latest)
-- ✅ Custom error handling and validation
-- ✅ Unit and integration test coverage (84%+)
-- ✅ Fully interactive Swagger UI at `/docs`
+- Add new sensor data via `POST /data`
+- Query sensor metrics via `GET /query`
+- Support for statistics like min, max, average, sum
+- Date-based filtering (last N days, default = latest)
+- Custom error handling and validation
+- Unit and integration test coverage (84%+)
+- Fully interactive Swagger UI at `/docs`
 
 ---
 
